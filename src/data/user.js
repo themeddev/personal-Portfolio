@@ -35,7 +35,7 @@ const PORTFOLIO_INFO = {
 
 	projects: [
 		{
-			title: "Fit Platter",
+			title: "FIT PLATTER",
 			description:
 			  "Elevate your fitness journey with Fit Platter, offering personalized sports-centric meal recommendations tailored to your unique health and fitness goals.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
@@ -43,23 +43,23 @@ const PORTFOLIO_INFO = {
 			link: "https://github.com/themeddev/FE-FIT-PLATTER.git",
 		},				
 
-		{
-		title: "CRUD Posts",
-		description:
-			"Explore CRUD operations with Laravel and MySQL. Efficiently manage your posts, seamlessly creating, reading, updating, and deleting content with this powerful web application.",
-		logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/php/php.png",
-		linkText: "View Project",
-		link: "https://github.com/themeddev/Crud-laravel.git",
-		},
+		// {
+		// title: "CRUD Posts",
+		// description:
+		// 	"Explore CRUD operations with Laravel and MySQL. Efficiently manage your posts, seamlessly creating, reading, updating, and deleting content with this powerful web application.",
+		// logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/php/php.png",
+		// linkText: "View Project",
+		// link: "https://github.com/themeddev/Crud-laravel.git",
+		// },
 
-		{
-			title: "Todo List",
-			description:
-				"A simple yet powerful Todo List web application using Python Flask and MongoDB. This project showcases the capabilities of Flask for web development and leverages MongoDB with PyMongo.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com/themeddev/flask-todo-mongodb.git",
-		},
+		// {
+		// 	title: "Todo List",
+		// 	description:
+		// 		"A simple yet powerful Todo List web application using Python Flask and MongoDB. This project showcases the capabilities of Flask for web development and leverages MongoDB with PyMongo.",
+		// 	logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+		// 	linkText: "View Project",
+		// 	link: "https://github.com/themeddev/flask-todo-mongodb.git",
+		// },
 
 		// {
 		// 	title: "Project 4",

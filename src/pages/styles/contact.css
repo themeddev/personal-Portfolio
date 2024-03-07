@@ -36,3 +36,17 @@
 	justify-content: flex-start;
 	align-items: center;
 }
+
+
+
+.contactLink{
+	font-weight: bold;
+	text-decoration: none;
+	color: rgb(65, 64, 64);
+	
+	transition: all .3s ease-in-out;
+}
+.contactLink:hover {
+	text-decoration: 1px var(--link-color) underline;
+	
+}

@@ -72,4 +72,4 @@ Copy code
     
 ## 🌱 Contribution
 
-Suggestions for improvements in Ahmed's Portfolio are welcomed. Feel free to leave an issue or fork the project to implement your ideas.
+Suggestions for improvements in Ahmed's Portfolio are welcomed. Feel free to leave an issue or fork the project to implement your ideas.np

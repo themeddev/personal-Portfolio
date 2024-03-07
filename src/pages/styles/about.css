@@ -51,15 +51,20 @@
 	display: inline-block;
 	overflow: hidden;
 	width: 100%;
-	border-radius: 10%;
-	transform: rotate(3deg);
+	border-radius: 3%;
 }
 
 .about-image-wrapper img {
 	display: block;
 	width: 100%;
+	transition: all 0.4s ease-in-out
 }
 
+.about-image-wrapper img:hover{
+	transform: scale(102%);
+	object-fit: cover;
+	transition: all 0.4s ease-in-out;
+}
 .about-socials {
 	padding-top: 50px;
 	padding-bottom: 50px;

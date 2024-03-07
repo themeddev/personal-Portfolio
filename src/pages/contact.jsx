@@ -59,7 +59,7 @@ const Contact = () => {
 							value your feedback, queries, and ideas. For specific
 							inquiries or comments, please email me directly at
 							&nbsp;{" "}
-							<a href={`mailto:${INFO.main.email}`}>
+							<a className="contactLink" href={`mailto:${INFO.main.email}`}>
 								{INFO.main.email}
 							</a>
 							. I strive to respond to all messages within 24
@@ -68,7 +68,7 @@ const Contact = () => {
 							on my website to connect. Just fill in the necessary
 							fields, and I'll get back to you promptly. If you
 							prefer connecting on social media, find me on{" "}
-							<a
+							<a	className="contactLink"
 								href={INFO.socials.github} // Replace with your GitHub link
 								target="_blank"
 								rel="noreferrer"
