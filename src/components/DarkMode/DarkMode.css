@@ -1,0 +1,22 @@
+/* DarkMode.css */
+
+.toggle-container {
+  position: fixed;
+  top: 4%;
+  right: 4%;
+  width: 25px;
+  height: 25px;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#icon {
+  width: 100%;
+  cursor: pointer;
+  filter: drop-shadow(0 0 2px rgba(0, 0, 14, 0.5));
+  transition: all 1s ease;
+}
+
+

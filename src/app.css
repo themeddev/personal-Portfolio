@@ -1,25 +1,45 @@
 @import "/src/data/styles.css";
 
+:root {
+	--scrollbar-track-bg : #f1f1f1;
+	--scrollbar-thumb : #383636;
+	--scrollbar-thumb-hover: black;
+	--page-content-bg: white;
+	--nav-background : #fff;
+	--nav-background-shadow : rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="dark"] {
+	--scrollbar-track-bg: #383636;
+	--scrollbar-thumb: #8c8c8c;
+	--scrollbar-thumb-hover: #f1f1f1;
+	--page-content-bg: #121212;
+	--nav-background : #1a1a1a;
+	--nav-background-shadow : rgba(256, 256, 256, 0.1);
+}
+
+
 ::-webkit-scrollbar {
 	width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-	background-color: #f1f1f1;
+	background-color: var(--scrollbar-track-bg);
 }
 
 ::-webkit-scrollbar-thumb {
-	background-color: #383636;
+	background-color: var(--scrollbar-thumb );
 	border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-	background-color: rgb(0, 0, 0);
+	background-color: var(--scrollbar-thumb-hover);
 }
 
 .page-content {
-	background-color: white;
+	background-color: var(--page-content-bg);
 	position: relative;
+	transition: all .5s ease;
 }
 
 .page-content:before,
@@ -29,7 +49,9 @@
 	top: 0;
 	bottom: 0;
 	width: calc((100% - 1200px) / 2);
-	background-color: #fff;
+	background-color: var(--page-content-bg);
+	transition: all .5s ease;
+
 	/* border: 1px solid #fff; */
 }
 

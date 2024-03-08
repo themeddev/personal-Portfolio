@@ -6,6 +6,7 @@ import "./styles/navBar.css";
 const NavBar = (props) => {
 	const { active } = props;
 
+
 	return (
 		<React.Fragment>
 			<div className="nav-container">

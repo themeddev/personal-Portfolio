@@ -12,6 +12,7 @@ import Notfound from "./pages/404";
 
 import { TRACKING_ID } from "./data/tracking";
 import "./app.css";
+import DarkMode from "./components/DarkMode/DarkMode";
 
 function App() {
 	useEffect(() => {
@@ -22,6 +23,7 @@ function App() {
 
 	return (
 		<div className="App">
+			<DarkMode />
 			<Routes>
 				<Route path="/" element={<Homepage />} />
 				<Route path="/about" element={<About />} />

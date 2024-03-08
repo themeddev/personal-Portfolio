@@ -5,6 +5,11 @@
 	--tertiary-color: #acacb4;
 	--quaternary-color: #e4e4e7;
 	--link-color: #14b8a6;
+	--read-article-body:#52525b;
+	--read-article-back-button:rgba(0, 0, 0, 0.25);
+	--read-article-back-button:aliceblue;
+	--read-article-back-button-bg:white;
+	--homepage-article-hover:#fafafa;
 	/* ---------------------- */
 
 	/* ------- fonts ------- */
@@ -12,3 +17,22 @@
 	--secondary-font: "Roboto", sans-serif;
 	/* --------------------- */
 }
+[data-theme="dark"] {
+	--primary-color: #ffffff;        /* Text color */
+	--secondary-color: #8a8a8a;      /* Subtle text or secondary elements */
+	--tertiary-color: #8a8a8a;       /* Borders, dividers, or tertiary elements */
+	--quaternary-color: #333333;     /* Background color for elements */
+	--link-color: #00cccc;    
+	--read-article-body:  #dfdfe3;
+	--read-article-back-button:#dfdfe3;
+	--read-article-back-button: #dfdfe3;
+	--read-article-back-button-bg:aliceblue;
+	--homepage-article-hover:black;
+
+
+
+
+	--primary-font: "Heebo", sans-serif;
+	--secondary-font: "Roboto", sans-serif;
+  }
+  

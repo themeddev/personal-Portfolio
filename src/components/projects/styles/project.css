@@ -12,7 +12,7 @@
 }
 
 .project:hover {
-	background: #fafafa;
+	background: var(--homepage-article-hover);
 	opacity: 1;
 	transition: background-color 0.3s ease-in-out;
 }
