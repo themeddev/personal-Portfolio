@@ -103,6 +103,7 @@
 	.page-content:before,
 	.page-content:after {
 		width: calc((100% - 90%) / 2);
+		
 	}
 
 	.content-wrapper {
