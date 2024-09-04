@@ -2,18 +2,23 @@
 
 .toggle-container {
   position: fixed;
-  top: 4%;
+  top: 3%;
   right: 5%;
-  width: 25px;
-  height: 25px;
+  width: 35px;
+  height: 30px;
   z-index: 10;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--scrollbar-track-bg);
+  padding: 2px 2px;
+  border-radius: 10px;
+  box-shadow: var(--darkMode-shadow) 0px 8px 24px;
+
 }
 
 #icon {
-  width: 100%;
+  /* width: 100%; */
   cursor: pointer;
   filter: drop-shadow(0 0 2px rgba(0, 0, 14, 0.5));
   transition: all 1s ease;

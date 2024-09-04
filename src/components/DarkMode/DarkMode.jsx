@@ -38,7 +38,7 @@ const DarkMode = () => {
 
   return (
     <div className="toggle-container" onClick={toggleDarkMode}>
-      <img src={moon} alt="ThemeIcon" id="icon" />
+      <img src={moon} alt="ThemeIcon" id="icon" width={25} height={25} />
     </div>
   );
 };

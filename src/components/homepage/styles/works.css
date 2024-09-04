@@ -42,3 +42,14 @@
 	text-align: right;
 	color: var(--tertiary-color);
 }
+
+
+@media (max-width: 600px){
+
+	.work {
+		display: flex;
+		padding-bottom: 40px;
+		width: 250px;
+	}
+
+}

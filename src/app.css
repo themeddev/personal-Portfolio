@@ -7,6 +7,7 @@
 	--page-content-bg: white;
 	--nav-background : #fff;
 	--nav-background-shadow : rgba(0, 0, 0, 0.1);
+	--darkMode-shadow : rgba(149, 157, 165, 0.2);
 }
 
 [data-theme="dark"] {
@@ -16,6 +17,7 @@
 	--page-content-bg: #121212;
 	--nav-background : #1a1a1a;
 	--nav-background-shadow : rgba(256, 256, 256, 0.1);
+	--darkMode-shadow : rgba(256, 256, 256, 0.2);
 }
 
 
